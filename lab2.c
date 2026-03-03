@@ -1,9 +1,8 @@
-#include <stdlib.h>
+#include <stdlib.h> // Ganea Tudor luca
 #include <stdio.h>
 
-int function(int x){
+int function(int x){        // am scos apelarea recursiva pentru ca era un loop infinit 
 	x=x-2;
-	x=function(x);
 	return x;
 }
 
@@ -17,3 +16,4 @@ int main(){
 	printf("%d", i);
 	return 0;	
 }
+ // am rezolvat 
